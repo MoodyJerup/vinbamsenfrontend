@@ -127,7 +127,6 @@ color: yellow;
 <!-- Add More Parallax Sections Here -->
 <!-- Footer Section -->
 <footer class="wn-footer">
-<p>This is a Bootstrap 4 parallax page with jumbotron created by <a href="https://www.webnots.com/">WebNots Web Consulting Services</a></p>
 <p>
 <a href="#">Back to top</a>
 </p>
