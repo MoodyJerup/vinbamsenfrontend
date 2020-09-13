@@ -74,9 +74,11 @@
 }
 
 footer {
-    height: 300px;
-    position: fixed;
-    background-image: url(img/vin.jpg);
+    background-image: url(img/fot.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    background-attachment: fixed;
 }
 
 
