@@ -6,8 +6,11 @@
 }
 
 h1 {
-    font-family: 'metropolisextra_bold';
+    font-family: 'metropolis';
+    font-weight: 100;
     font-size: min(3.4em, 13vw);
+    text-transform: uppercase;
+    color: white;
     /*min, vælger den mindste værdi */
 }
 
