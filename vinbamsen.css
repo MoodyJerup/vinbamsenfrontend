@@ -4,3 +4,92 @@
     box-sizing: border-box;
     /* bedre padding i bokse*/
 }
+
+
+#hero {
+    background-color: tan;
+    height: 700px;
+}
+
+.herotext {
+    background-color: green;
+    height: 300px;
+}
+
+
+#bamsehoved {
+    background-color: grey;
+    height: 700px;
+}
+
+#testimonials {
+    background-color: gold;
+    height: 350px;
+    border-bottom-color: #BAA136;
+    border-bottom-style: solid;
+
+}
+
+#vinabonnement {
+    background-color: darkred;
+    height: 800px;
+}
+
+#footerpic {
+    background-color: blueviolet;
+    height: 300px;
+
+}
+
+.slider {
+    height: 200px;
+}
+
+
+.automargin {
+    margin: auto;
+}
+
+
+
+
+/* Media queries */
+
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+@media (min-width: 576px) {
+
+
+    /* END "sm-" 576px and up */
+}
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {
+
+
+
+    /* END "md-" 768px and up */
+}
+
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+
+
+    /* END "lg-" 992px and up */
+}
+
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+
+
+
+
+    /* END "xl-" 1200px and up */
+}
