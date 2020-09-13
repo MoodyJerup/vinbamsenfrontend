@@ -5,7 +5,7 @@
 @font-face {
     font-family: 'metropolisblack';
     src: url('metropolis-black-webfont.woff2') format('woff2'),
-         url('metropolis-black-webfont.woff') format('woff');
+        url('metropolis-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'metropolisbold';
     src: url('metropolis-bold-webfont.woff2') format('woff2'),
-         url('metropolis-bold-webfont.woff') format('woff');
+        url('metropolis-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -29,7 +29,7 @@
 @font-face {
     font-family: 'metropolisextra_bold';
     src: url('metropolis-extrabold-webfont.woff2') format('woff2'),
-         url('metropolis-extrabold-webfont.woff') format('woff');
+        url('metropolis-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -41,7 +41,7 @@
 @font-face {
     font-family: 'metropolisextra_light';
     src: url('metropolis-extralight-webfont.woff2') format('woff2'),
-         url('metropolis-extralight-webfont.woff') format('woff');
+        url('metropolis-extralight-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -53,7 +53,7 @@
 @font-face {
     font-family: 'metropolislight';
     src: url('metropolis-light-webfont.woff2') format('woff2'),
-         url('metropolis-light-webfont.woff') format('woff');
+        url('metropolis-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -65,7 +65,7 @@
 @font-face {
     font-family: 'metropolismedium';
     src: url('metropolis-medium-webfont.woff2') format('woff2'),
-         url('metropolis-medium-webfont.woff') format('woff');
+        url('metropolis-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -77,7 +77,7 @@
 @font-face {
     font-family: 'metropolisregular';
     src: url('metropolis-regular-webfont.woff2') format('woff2'),
-         url('metropolis-regular-webfont.woff') format('woff');
+        url('metropolis-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -89,7 +89,7 @@
 @font-face {
     font-family: 'metropolisregular_italic';
     src: url('metropolis-regularitalic-webfont.woff2') format('woff2'),
-         url('metropolis-regularitalic-webfont.woff') format('woff');
+        url('metropolis-regularitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -101,7 +101,7 @@
 @font-face {
     font-family: 'metropolissemi_bold';
     src: url('metropolis-semibold-webfont.woff2') format('woff2'),
-         url('metropolis-semibold-webfont.woff') format('woff');
+        url('metropolis-semibold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -113,8 +113,8 @@
 @font-face {
     font-family: 'metropolisthin';
     src: url('metropolis-thin-webfont.woff2') format('woff2'),
-         url('metropolis-thin-webfont.woff') format('woff');
-    font-weight: normal;
+        url('metropolis-thin-webfont.woff') format('woff');
+    font-weight: 100;
     font-style: normal;
 
 }
@@ -125,7 +125,7 @@
 @font-face {
     font-family: 'metropolisthin_italic';
     src: url('metropolis-thinitalic-webfont.woff2') format('woff2'),
-         url('metropolis-thinitalic-webfont.woff') format('woff');
+        url('metropolis-thinitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

@@ -6,9 +6,8 @@
 }
 
 h1 {
-    font-family: 'metropolis';
-    font-weight: 100;
-    font-size: min(3.4em, 13vw);
+    font-family: 'metropolisthin';
+    font-size: min(2.1em, 13vw);
     text-transform: uppercase;
     color: white;
     /*min, vælger den mindste værdi */
@@ -22,7 +21,7 @@ h1 {
 }
 
 .herobox {
-    background-color: green;
+    border: solid pink 2px;
     height: 300px;
 }
 
@@ -110,9 +109,9 @@ footer p {
     border-width: 1px;
     border-left: 2px;
     border-right: 2px;
-    border-color: black;
+    border-color: white;
     padding: 20px;
-    max-width: 350px
+    max-width: 550px
 }
 
 
@@ -152,6 +151,7 @@ footer p {
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
+
 
 
 
