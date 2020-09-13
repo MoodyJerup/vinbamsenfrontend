@@ -11,12 +11,15 @@
     height: 700px;
     background-image: url(img/hero.jpeg);
     background-size: cover;
-    background-position: center;
 }
 
 .herobox {
     background-color: green;
     height: 300px;
+}
+
+#hero .btn {
+    width: 100px;
 }
 
 /*
@@ -51,7 +54,8 @@
     background-color: blueviolet;
     background-image: url(img/ph.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     height: 300px;
 
 }
@@ -91,9 +95,16 @@ footer p {
     color: white;
 }
 
-.ma {
-    margin-right: auto;
-    margin-left: auto;
+
+
+.kant2 {
+    border-style: solid;
+    border-width: 1px;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: black;
+    padding: 20px;
+    max-width: 350px
 }
 
 
