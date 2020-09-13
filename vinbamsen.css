@@ -73,6 +73,11 @@
     margin: auto;
 }
 
+footer {
+    height: 300px;
+    position: fixed;
+    background-image: url(img/vin.jpg);
+}
 
 
 
