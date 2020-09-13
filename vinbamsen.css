@@ -9,12 +9,21 @@
 #hero {
     background-color: tan;
     height: 700px;
+    background-image: url(img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
 }
 
-.herotext {
+.herobox {
     background-color: green;
     height: 300px;
 }
+
+/*
+.card-img-top {
+    height: 330px;
+}
+*/
 
 
 #bamsehoved {
@@ -56,6 +65,7 @@
     border-bottom-style: solid;
 }
 
+
 .gr {
     background-color: #007962;
 }
@@ -68,14 +78,10 @@
     background-color: #653C77
 }
 
-
-.automargin {
-    margin: auto;
-}
-
 footer {
     background-image: url(img/fot.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     height: 400px;
     background-attachment: fixed;
@@ -85,6 +91,22 @@ footer p {
     color: white;
 }
 
+.ma {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.img-fluid {
+    max-height: 400px;
+}
+
+/*  Background styling
+.bg {
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+*/
 
 
 /* Media queries */
@@ -104,7 +126,6 @@ footer p {
 @media (min-width: 768px) {
 
 
-
     /* END "md-" 768px and up */
 }
 
@@ -112,6 +133,7 @@ footer p {
 /* // Large devices (desktops, 992px and up) */
 /**************************************************/
 @media (min-width: 992px) {
+
 
 
     /* END "lg-" 992px and up */

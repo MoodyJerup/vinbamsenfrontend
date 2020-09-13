@@ -11,56 +11,62 @@
 </head>
 
 <body>
-    <header>
+    <header class="pt-5">
         <nav>
             <ul>
-                <li> ul og lig har en lille default padding</li>
+                <li> header</li>
             </ul>
         </nav>
     </header>
-    <main class="container-fluid">
-        <section id="hero" class="row align-content-center">
+    <main class="container-fluid ">
+        <section id="hero" class="row justify-content-center align-content-center ">
 
-            <div class="herotext col-8 d-flex align-items-center flex-wrap automargin">
+            <div class="herobox col-8 d-flex ">
                 <p class="text-center col-7"> Velkommen til vinbamsen</p>
 
-                <button type="button" class="btn-sm btn-primary col-7">
+                <button type="button" class="btn-sm btn-primary">
                     knap </button>
 
             </div>
         </section>
 
-        <section id="bamsehoved" class="row">
+        <section id="bamsehoved" class="row pt-5 justify-content-center align-content-center">
 
-            <div class="col-1"></div>
-            <div class="info col-10 automargin">
+
+            <div class="info col-10">
                 <div class="col-12">
                     <h2>h2</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus esse aliquid. Deserunt labore hic unde facere placeat optio alias minima ducimus quibusdam odio autem, laborum in maiores ex harum.</p>
                 </div>
                 <button class="btn-sm btn-primary col">knap</button>
-                <div class="col-12 pt-5"> <img class="col-12" src="img/ph.jpg" alt=""></div>
+                <div class="col-12 col-sm-12 col-md-10 ma pt-5">
+
+                    <img class="col-12 img-fluid" src="img/ph.jpg" alt="">
+
+                </div>
+
             </div>
-            <div class="col-1"></div>
+
 
         </section>
 
 
-        <section id="testimonials" class="row kant">
+        <section id="testimonials" class="row kant justify-content-center align-content-center">
 
-            <div class="col-12 slider automargin">
+            <div class="col-12 slider ">
                 <p class="text-center">textslider</p>
             </div>
 
         </section>
 
-        <section id="vinabonnement" class="row kant">
-            <div class="col-12">
-                <h2>h2</h2>
+        <section id="vinabonnement" class="row kant justify-content-center align-content-center">
+            <h2>h2</h2>
+            <div class="col-12 d-flex flex-wrap">
 
-                <div class="col-12">
+
+                <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4 ">
                     <div class="card gr mb-4">
-                        <img class="card-img-top" src="/img/ph.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/img/ph.jpg" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -69,9 +75,9 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4">
                     <div class="card bl mb-4">
-                        <img class="card-img-top" src="/img/ph.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/img/ph.jpg" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -80,9 +86,9 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-5 col-xl-4">
                     <div class="card ll mb-4">
-                        <img class="card-img-top" src="/img/ph.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="/img/ph.jpg" alt="">
                         <div class="card-body text-center">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -90,22 +96,23 @@
                         </div>
                     </div>
                 </div>
-
 
 
             </div>
         </section>
+
+        <!--        card-md-img-right flex-auto d-md-block-->
 
 
         <section id="footerpic" class="row">
 
         </section>
 
-        <footer class="row ">
+        <footer class="row pt-5 ">
             <div class="col-4">
-                <p>virker ikke..</p>
+                <p>fixed virker ikke. skal være parrallax</p>
             </div>
-            <div class="col-4"> <img src="url(/img/logohvid.png)" alt=""></div>
+            <div class="col-4"> <img class="col-12" src="/img/logohvid.png" alt=""></div>
             <div class="col-4">
                 <p></p>
             </div>
@@ -114,6 +121,4 @@
     </main>
     <script src="script.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-</body>
-
-</html>
+</body></html>
