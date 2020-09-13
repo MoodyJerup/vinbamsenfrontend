@@ -1,1 +1,6 @@
-/* Hej Esau... */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    /* bedre padding i bokse*/
+}
