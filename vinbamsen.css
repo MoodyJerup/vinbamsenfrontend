@@ -5,6 +5,11 @@
     /* bedre padding i bokse*/
 }
 
+h1 {
+    font-family: 'metropolisextra_bold';
+    font-size: min(3.4em, 13vw);
+    /*min, vælger den mindste værdi */
+}
 
 #hero {
     background-color: tan;
